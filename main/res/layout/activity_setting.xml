@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Setting">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginBottom="280dp"
+        android:text="Tắt/Bật âm thanh"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/audioSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="321dp"
+        android:layout_marginLeft="321dp"
+        android:layout_marginBottom="280dp"
+        android:checked="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:text="Cài đặt"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resetWinsLosts"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="210dp"
+        android:text="Đặt lại thành tích người chơi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resetAll"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="140dp"
+        android:text="Đặt lại tất cả dữ liệu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

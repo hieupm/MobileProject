@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvid" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivimage"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvwins"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvlosts"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvcash"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+</LinearLayout>
